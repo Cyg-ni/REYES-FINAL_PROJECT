@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: #282133;
+  color: white;
+  font-family: 'Host Grotesk', sans-serif;
+}
+
+#content {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media (min-width: 768px) {
+  #content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #content {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+#navbar {
+  background-color: #1d1924;
+}
+
+html {
+  scroll-behavior: smooth;
+}
